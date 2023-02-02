@@ -1,0 +1,142 @@
+.container {
+  padding: 0 15px;
+}
+
+.navbar {
+    background: rgb(153, 239, 154) !important;
+    border-bottom: 3px solid silver;
+    border-color: #f5f5f6 !important;
+}
+
+
+
+@media (min-width: 575.98px){
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: 767.98px){
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1199.98px){
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+body {
+  background: rgb(241, 203, 167);
+}
+
+.alert-light {
+  border-color: #bfbfbf;
+}
+
+.form-register {
+  padding: 20px;
+  background: #fafafa;
+  border: 1px solid silver;
+  margin-top: 20px;
+}
+
+.form-register .helptext {color: #000000
+}
+
+.form-register ul.errorlist {
+    color: #ca5858;
+    font-weight: bold;
+}
+
+footer {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.form-register.auth input {
+    display: block;
+    width: 96%;
+    margin-top: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 2%;
+
+}
+
+.table-bordered td, .table-bordered th{
+    border-color: #4d74bd !important;
+    background-color: rgb(245, 245, 246) !important;
+    text-align: center !important;
+}
+
+td.red {
+    background-color: rgb(252, 236, 236) !important;
+}
+td.orange {
+    background-color: rgb(248, 237, 230) !important;
+}
+td.green {
+    background-color: rgb(221, 246, 221) !important;
+}
+
+.Badresult {
+  color: #FF0000;
+}
+
+.Goodresult {
+  color: #047c0a;
+}
+
+.Middleresult {
+  color: orange;
+}
+
+
+.alert-light {
+  color: #04147c;
+    background-color: rgb(245, 245, 246);
+}
+
+
+.nor , nor.td, nor.th {
+  border: 1px solid black;
+    height: 22px;
+    padding: 0 !important;
+    text-align: center !important;
+    border-collapse: collapse !important;
+    min-width: 100px;
+}
+
+.nor {
+  border-collapse: collapse;
+  background-color: rgb(245, 245, 246);
+    width: 15px;
+}
+
+@media print{
+   .noprint{
+       display:none;
+   }
+}
+
+th.ind {
+    max-width: 100px !important;
+    word-wrap: break-word;
+}
+
+td.ind {
+    max-width: 100px !important;
+    word-wrap: break-word;
+}
